@@ -1,0 +1,209 @@
+.green{
+    background:rgb(206, 252, 206);
+   padding-left: 15%;
+   padding-top: 6%;
+   padding-bottom: 6%;
+}
+.green h1{
+    font-size: 50px;
+}
+.green p{
+    color: grey;
+    font-size: 18px;
+}
+.green img{
+    width: 43.5%;
+}
+.hi2{
+    position: absolute;
+    margin-top: -33%;
+    margin-left: 35%;
+    z-index: 999;
+    width: 100%;
+}
+.hi1{
+    margin-right: 60%;
+}
+.container2{
+margin-left: 15%;
+display: flex;
+margin-top: 7%;
+margin-bottom: 10%;
+position: relative;
+}
+.test1, .test2, .test3{
+    padding-right: 8%;
+}
+.container2 p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+.container2 h1{
+    font-size: 26px;
+    font-weight: bolder;
+   margin-right: 5px;
+}
+.container2 img{
+    background-color:rgb(206, 252, 206);
+    padding: 4%;
+    border-radius: 50%;
+}
+@media only screen and (max-width:960px){
+    .navbar{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+
+    }
+    nav img{
+        margin-left: -8%;
+    }
+    .text{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        padding-top:10%;
+        padding-left: 3%;
+        padding-bottom: 3%;
+    }
+    .text h1{
+        font-size: 48px;
+    }
+    .girl{
+        width: 100%;
+    }
+    .girl img{
+        width: 100%;
+        height:auto ;
+    }
+    .green{
+        display: flex;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        margin-left:3%;
+        margin-top: 25%;
+    }
+    .green h1{
+        font-size: 32px;
+    }
+    .green p{
+        font-size: 16px;
+    }
+    .green{
+        display: flex;
+        flex-direction: column;
+    }
+    .hi2{
+        all: initial;
+        all: none;
+        margin-left: 0px;
+        order: 1;
+        margin-top: -45%;
+        z-index: 999;
+
+    }
+    .hi1{
+        order: 2;
+    }
+    .green img{
+        width: 80%;
+    }
+    .circle3{
+        width: 600px;
+        height: 600px;
+        background:rgb(206, 252, 206);
+        position: absolute;
+        border-radius: 50%;
+        margin-left: -28%;
+        margin-top: 10%;
+        z-index: -1999;
+        margin-bottom: 1%;
+    }
+    .circle4{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        background-color:rgb(206, 252, 206);
+        border-radius: 50%;
+        margin-top: 10%;
+        right: -90px;
+    }
+    .hi1{
+        margin: 0;
+        position: relative;
+        z-index: 999;
+    }
+    .hi1 h1{
+        position: relative;
+        z-index: 999;
+    }
+    .green .hi{
+        z-index: 999;
+    }
+    .container2{
+        margin-left: 3%;
+    }
+    .container3 h1{
+        font-size: 36px;
+    }
+    .container3 p{
+        font-size: 18px;
+    }
+    .container3 p a{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:620px){
+   
+   .btn{
+       all: initial;
+       z-index: 999;
+       text-align: center;
+       background: white;
+       padding: 15px 15px;
+       border-radius: 10%;
+       cursor: pointer;
+   }
+   .circle, .circle2{
+       display: none;
+   }
+   .best{
+       all: initial;
+    margin-bottom: 40px; 
+      }
+   .first{
+       margin-bottom: 5px;
+   }
+   #img1, #img2, #img3{
+       width: 15%;
+       padding: 0px;
+       position: absolute;
+       padding-top: 30px;
+       margin-top: 20px;
+       z-index: 999;
+   }
+   #ride,#price,#use{
+       font-size: 22px;
+       padding-left: 20%; 
+       margin-bottom: 0px;
+       padding-bottom: 5px;
+       margin-top: 40px;
+   }
+.green{
+    margin-top: 60%;
+}
+.circle3{
+   position: absolute;
+   width: 500px;
+   height: 500px;
+   top: 0%;
+   z-index: -9999;
+}
+.hi1{
+    position: relative;
+    z-index: 9999;
+}
+}
